@@ -2,7 +2,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_mail_settings'
-  s.version     = '2.2.0'
+  s.version     = '2.3.0'
   s.summary     = 'TODO: Add gem summary here'
   s.description = 'TODO: Add (optional) gem description here'
   s.required_ruby_version = '>= 1.9.3'
@@ -16,15 +16,16 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_dependency 'spree_backend', '~> 2.2.0'
+  s.add_dependency 'spree_backend', '~> 2.3.1'
 
-  s.add_development_dependency 'capybara', '~> 2.1'
-  s.add_development_dependency 'coffee-rails'
-  s.add_development_dependency 'database_cleaner'
-  s.add_development_dependency 'factory_girl', '~> 4.2'
+
+
+  s.add_development_dependency 'capybara', '~> 2.2.1'
+  s.add_development_dependency 'coffee-rails', '~> 4.0.0'
+  s.add_development_dependency 'factory_girl', '~> 4.4.0'
   s.add_development_dependency 'ffaker'
-  s.add_development_dependency 'rspec-rails',  '~> 2.13'
-  s.add_development_dependency 'sass-rails'
-  s.add_development_dependency 'simplecov'
+  s.add_development_dependency 'sass-rails', '~> 4.0.0'
   s.add_development_dependency 'sqlite3'
+  s.add_development_dependency 'rspec-rails', '~> 2.14.0'
+
 end
