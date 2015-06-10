@@ -3,13 +3,13 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_mail_settings'
   s.version     = '2.3.0'
-  s.summary     = 'TODO: Add gem summary here'
-  s.description = 'TODO: Add (optional) gem description here'
+  s.summary     = 'Mail settings'
+  s.description = 'Mail settings'
   s.required_ruby_version = '>= 1.9.3'
 
-  # s.author    = 'You'
-  # s.email     = 'you@example.com'
-  # s.homepage  = 'http://www.spreecommerce.com'
+  s.author    = 'S.L.K'
+  s.email     = 'info@rostdetal.ru'
+  s.homepage  = 'http://www.rostdetal.ru'
 
   #s.files       = `git ls-files`.split("\n")
   #s.test_files  = `git ls-files -- {test,spec,features}/*`.split("\n")
